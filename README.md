@@ -24,11 +24,28 @@ The chinese character svg and stroke order data used by Hanzi Writer is derived 
 
 Pull requests are welcome! If you would like to contribute code, you'll need to be able to build the project locally. After cloning the Hanzi Writer repo, you can get it set up by running:
 
+## Demo
+
+### how to install yarn 
+
+visit URL = https://classic.yarnpkg.com/en/docs/install#windows-stable
+
 ```
-yarn install
+npm install --global yarn    # assume npm is installed 
+yarn --version				 # verify version 
 ```
 
-You can run tests with `yarn test` and you can build the project with `yarn build`.
+
+### how to run demo
+
+```
+yarn install	# install required packages
+yarn test    	# test 
+yarn build   	# build project
+
+# go to sub-folder "demo" 
+# open file "index.html" in a browser
+```
 
 ## License
 
